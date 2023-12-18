@@ -250,7 +250,7 @@ MonoBehaviour:
   platformEnd: {fileID: 6800101624625461716, guid: c0c1532846abfb74f8925b2a5cc818d7, type: 3}
   platform2: {fileID: 7857293749224807636, guid: b07b3fae26c65a042b239f8e21abd95f, type: 3}
   platform3: {fileID: 8600891727649992466, guid: d60744554066989429494d03c2df773d, type: 3}
-  playerPrefab: {fileID: 0}
+  playerPrefab: {fileID: 1686670150079515529, guid: 6352ef7ed792cc94ea633917d090a7b5, type: 3}
   amountToSpawn: 100
 --- !u!4 &810644245
 Transform:
@@ -327,8 +327,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -352,13 +352,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.23911765, y: -0.3696438, z: 0.09904577, w: 0.89239913}
+  m_LocalPosition: {x: 10, y: 10, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 30, y: -45, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

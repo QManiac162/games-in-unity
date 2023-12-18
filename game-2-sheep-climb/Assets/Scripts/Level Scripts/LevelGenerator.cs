@@ -51,7 +51,11 @@ public class LevelGenerator : MonoBehaviour
             if (i == 0)
             {
                 lastPos = newPlatform.transform.position;
-                continue; // instantiate player
+                // instantiate player
+                Vector3 temp = lastPos;
+                temp.y += 0.1f;
+                Instantiate(playerPrefab, temp, Quaternion.identity);
+                continue;
             }
             int pos = Random.Range(0, 2);
             if (pos == 0)
